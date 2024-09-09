@@ -79,6 +79,9 @@ body {
   .water {
     background-color: #6493eb; /*6493eb 6898CB*/
   }
+  .electric{
+    background-color: gold;
+  }
   .image {
     text-align: center;
     margin: 15px 0;
@@ -184,3 +187,49 @@ body {
 
  
   
+/* src/components/Finder.css */
+
+.finder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.finder-label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: black
+}
+
+.finder-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.finder-input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  background-color: #ccc;
+  color: #212121;
+
+}
+
+.finder-button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.finder-button:hover {
+  background-color: #0056b3;
+}
